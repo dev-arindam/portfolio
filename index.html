@@ -9,7 +9,7 @@
 
     <!-- css  -->
   <link rel="stylesheet" href="css/style.css">
-
+ <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 <!-- main_container  -->
@@ -18,14 +18,14 @@
     <!-- header  -->
 <header class="header-contaner">
 <nav class="nav-container">
-<div class="logo">logo</div>
+<div class="logo">Portfolio</div>
 <div class="navigation">
     <ul class="nav-list">
-        <li>home</li>
-        <li>about</li>
-        <li>service</li>
-        <li>project</li>
-        <li>contact</li>
+      <a href="#"><li>home</li></a> 
+       <a href="#"><li>about</li></a> 
+       <a href="#service"><li>service</li></a>
+       <a href="#"> <li>project</li></a> 
+       <a href="#"> <li>contact</li></a> 
     </ul>
 </div>
 <div class="button">hire me <i class="fa-solid fa-angles-right"></i></div>
@@ -41,11 +41,18 @@
     <h2 class="title-large">Dev Arindam</h2>
     <p class="banner-sub-text">UI/UX Designer specializing in Shopify & Webflow.</p>
     <div class="resume">
-    <a href="#" class="resume-button">get resume <i class="fa-solid fa-download"></i> </a>
+    <a href="images\my_resume.pdf" class="resume-button">get resume <i class="fa-solid fa-download"></i> </a>
     </div>
     </div>
     <div class="banner-image-container">
+    <div class="banner-image">
+   <div class="banner-container-design-halfround">
+     <div class="banner-icon1"><i class="fa-brands fa-facebook-f"></i></div>
+<div class="banner-icon2"><i class="fa-brands fa-github"></i></div>
+<div class="banner-icon3"><i class="fa-brands fa-linkedin"></i></div>
 
+   </div>
+   </div>
     </div>
 
 <div class="banner-top-design">
@@ -64,13 +71,33 @@
 </header>
 <!--end header  -->
 
+<!-- about section start -->
+<section class="about-container">
+    <div class="Resume-container">
+
+    </div>
+            <div class="section-content">
+            <span class="about-tag">About Us</span>
+            <h2 class="about-title">I’m Arindam Bar </h2>
+            <h2 class="about-ux-ui">UI/UX designer specializing in shopify & webflow.</h2>
+            <p class="para">Lorem Ipsum is simply dummy text of the printing and pesetting industry has been the industry's standard dummy text ever since the 1500s, when an unkn own printer took galley of type and scrambled.</p>
+            
+
+      </div>
+</section>
+
+
+<!-- about section end -->
+
+
+
 <!-- service-container start  -->
-<section class="service-container">
+<section class="service-container" id ="service">
         <div class="section-content">
             <span class="section-tag">My Services</span>
             <h2 class="section-title">Service Provide For My Clients.</h2>
-             </div>
-
+      </div>
+<div class="card-section">
    <div class="card-container">
 
     <div class="card">
@@ -94,6 +121,9 @@
 
 
 <div class="card">
+        <div class="card-top-design"></div>
+    <div class="card-bottom-design"></div>
+
     <div class="card-icon">
       <!-- Using a placeholder SVG icon -->
       <img src="https://img.icons8.com/ios-filled/50/ffffff/source-code.png" alt="code icon">
@@ -109,6 +139,10 @@
   </div>
 
  <div class="card">
+
+    <div class="card-top-design"></div>
+    <div class="card-bottom-design"></div>
+
     <div class="card-icon">
       <!-- Using a placeholder SVG icon -->
       <img src="https://img.icons8.com/ios-filled/50/ffffff/vector.png" alt="vector icon">
@@ -123,11 +157,11 @@
     </ul>
   </div>
 
+</div>
 
 
 
-
-  </div>  
+ </div>  
 </section>
 <!-- service-container end  -->
  <!-- special skills  container start  -->
@@ -195,7 +229,40 @@
 
 </section>
 <!-- special skills  container end -->
+<!-- my education start  -->
 
+<section class="my-education-container">
+    
+        <div class="education-year-container">
+
+        <div class="year-list"><span class="year">2019-2021</span> </div>   
+        <div class="year-list"><span class="year">2021-2024</span> </div> 
+        <div class="year-list"><span class="year">2024-2026</span> </div>          
+        </div>
+        <div class="education-details-container">
+         <div class="education-title"><span class="edu">My Education</span></div>
+         <div class="education-details">
+            <h3 class="education">Secondary Education (WBBSE) & Higher Secondary Education(WBCHSE)</h3>
+            <p class="add">Karalda Bani Niketan High School(H.S.),Karalda</p>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, odit expedita? Possimus iusto laudantium debitis similique quam reprehenderit dolores ea nulla mollitia, inventore neque quod praesentium placeat officiis assumenda ipsum!</p>
+          </div> 
+        <div class="education-details">
+            <h3 class="education">Bachelor of Arts</h3>
+            <p class="add">Vidyasagar University,Midnapore</p>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, odit expedita? Possimus iusto laudantium debitis similique quam reprehenderit dolores ea nulla mollitia, inventore neque quod praesentium placeat officiis assumenda ipsum!</p>
+          </div>
+        <div class="education-details">
+            <h3 class="education">Masters of Computer Application</h3>
+            <p class="add">Seacom Skils University University,Bolpur</p>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, odit expedita? Possimus iusto laudantium debitis similique quam reprehenderit dolores ea nulla mollitia, inventore neque quod praesentium placeat officiis assumenda ipsum!</p>
+          </div>
+
+        </div>
+
+</section>
+
+
+<!-- my education end  -->
 <!-- counter-container start -->
 <section class="counter-container">
 
@@ -234,12 +301,75 @@
 </section>
 <!-- counter-container end-->
 
+<!-- my projects start  -->
+
+<section class="my-projects">
+
+
+</section>
+
+
+<!-- my projects end  -->
+<!-- contact-me start  -->
+
+<section class="contact-me">
+<div class="get-in-Touch">
+
+<span class="contact-section-tag">Get In Touch</span>
+<h2 class="contact-me-title">If you have any porject or need help. Contact me</h2>
+<p class="contact-me-para">Lorem Ipsum is simply dummy text of the printing and typesetting emndustry lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print only five centuries, but also the leap into electronic.</p>
+</div>
+
+<div class="contact-form">
+<form class="input-container" action="" method="post">
+ <div class="input-container1">
+     <div class="contact-input">
+        <input type="text" name="" id="" placeholder="Name">
+    </div>  
+        
+     <div class="contact-input">
+        <input type="text" name="" id="" placeholder="Email">
+    </div> 
+
+    </div>
+<div class="input-container2">
+      <div class="contact-input"> 
+      <input type="text" name="" id="" placeholder="Phone">
+      </div> 
+ <div class="contact-input">
+       <input type="text" name="" id="" placeholder="Subject"> 
+ </div>
+ </div>
+
+<div class="text-area">
+<textarea name="" id="" placeholder="comment"></textarea>
+</div>
+
+</form>
+</div>
+
+
+</section>
+
+
+<!-- contact-me end  -->
 
 
 
 
     <!-- footer_container -->
     <footer class="footer_container">
+
+<div class="footer-left-design">
+<div class="flt1"></div>
+<div class="flt2"></div>
+<div class="flt3"></div>
+</div>
+        <div class="footer-right-design">
+<div class="frt1"></div>
+<div class="frt2"></div>
+<div class="frt3"></div>
+</div>
 
             <div class="footer-content">
                 <span class="footer-section-tag">Get Latest Updates</span>
